@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	-webkit-font-smoothing:antialiased;
+	background:#1e03e2;
+	font-family: 'Crimson Text', 'serif';
+	color: #fff;
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+}
+
+h1 {
+	font-weight:600;
+	font-size: 2rem;
+	line-height: 1.1em;
+	text-align: center;
+}
+
+h2 {
+	font-weight:400;
+	font-style:italic;
+	font-size: 1.8rem;
+	padding-top: 10px;
+}
+
+p {
+	font-weight:400;
+	font-size: 1.2rem;
+}
+
+a {
+	font-style:italic;
+}
+
+#text {
+	max-width:700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 270px) {
+	
+	p {
+		font-size: 1.1rem;
+	}
+	
+	#text {
+		padding: 10px;
+		padding-top: 0px;
+	}
+}
+
+@media screen and (min-width: 375px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	
+	p {
+		font-size: 1.2rem;
+	}
+	
+	#text {
+		padding: 10px;
+		padding-top: 0px;
+	}
+	
+}
+
+
+@media screen and (min-width: 400px) {
+	h1 {
+		font-size: 3rem;
+	}
+	
+	h2 {
+		font-size: 2rem;
+	}
+	
+	p {
+		font-size: 1.4rem;
+	}
+	
+	#text {
+		padding: 30px;
+		padding-top: 0px;
+	}
+	
+}
+
+@media screen and (min-width: 570px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+	
+	h2 {
+		font-size: 2.5rem;
+	}
+		
+	#text {
+		padding: 40px;
+		padding-top: 0px;
+	}
+	
+}
+
+@media screen and (min-width: 660px) {
+	
+	h1 {
+		font-size:4rem;
+	}
+	
+	h2 {
+		font-size: 2.4rem;
+	}
+	
+	p {
+		font-size: 1.6rem;
+	}
+	
+	#text {
+		padding: 50px;
+		padding-top: 0px;
+	}
+	
+}
+
+@media screen and (min-width: 750px) {
+	
+	h1 {
+		font-size:4.5rem;
+	}
+	
+	#text {
+		padding: 50px;
+		padding-top: 0px;
+	}
+}
